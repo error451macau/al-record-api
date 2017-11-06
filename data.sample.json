@@ -1,0 +1,82 @@
+{
+  "deputies": [
+    {
+      "id": 1,
+      "nameChi": "賀一誠",
+      "namePort": "Ho Iat Seng",
+      "email": "iatsengho@al.gov.mo",
+      "electedMethod": "direct",
+      "qualifications": "1",
+      "job": "2",
+      "memberSince": 3,
+      "contact": {
+        "address": "4",
+        "email": "5",
+        "website": "6",
+        "phone": "7"
+      },
+      "property": {
+        "residentialCount": 8,
+        "businessCount": 9,
+        "parkingSlotCount": 1,
+        "landCount": 2,
+        "companyCount": 3,
+        "ngoCount": 4,
+        "declarationDocumentId": null
+      },
+      "slug": "ho-iat-seng"
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "title": "Doraemon",
+      "date": "2017-11-16T16:00:00.000Z",
+      "tags": "demo,document"
+    },
+    {
+      "title": "Hex",
+      "date": "2017-11-23T16:00:00.000Z",
+      "id": 2
+    },
+    {
+      "tagIds": [
+        2,
+        1
+      ],
+      "title": "Dex",
+      "date": "2017-11-06T16:00:00.000Z",
+      "id": 3
+    }
+  ],
+  "tags": [
+    {
+      "name": "Billy",
+      "id": 1
+    },
+    {
+      "name": "JavaScript",
+      "id": 2,
+      "slug": "javascript"
+    }
+  ],
+  "bills": [
+    {
+      "title": "Bill 1",
+      "tagIds": [
+        2
+      ],
+      "date": "2017-11-01T16:00:00.000Z",
+      "id": 1,
+      "proposerDeputyId": 1,
+      "votingResult": [
+        {
+          "deputyId": 1,
+          "vote": "N",
+          "comment": "Haha"
+        }
+      ],
+      "slug": "bill-1"
+    }
+  ]
+}
