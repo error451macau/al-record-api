@@ -80,4 +80,9 @@ function handleFileUpload(req, res, next){
 }
 
 server.use(router);
-server.listen(process.env.API_PORT || 7777);
+
+var port = process.env.API_PORT || 7777;
+server.listen(port, function(err){
+    if(err) return console.error(`failed to listen at port ${port}`);
+    console.log(`listening at port ${port}`)
+});
