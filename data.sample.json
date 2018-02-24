@@ -68,7 +68,7 @@
       ],
       "date": "2017-11-01T16:00:00.000Z",
       "id": 1,
-      "proposerDeputyId": 1,
+      "proposerDeputiesId": [1],
       "votingResult": [
         {
           "deputyId": 1,
